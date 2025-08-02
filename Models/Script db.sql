@@ -28,6 +28,12 @@ ALTER TABLE [dbo].[Empleado] CHECK CONSTRAINT [FK_Empleados_Jefe]
 GO
 
 
+INSERT INTO Empleado (Puesto, Nombre, CodigoJefe) VALUES ('Gerente', 'Pedro', NULL);
+INSERT INTO Empleado (Puesto, Nombre, CodigoJefe) VALUES ('Sub Gerente', 'Pablo', 1);
+INSERT INTO Empleado (Puesto, Nombre, CodigoJefe) VALUES ('Supervisor', 'Juan', 2);
+INSERT INTO Empleado (Puesto, Nombre, CodigoJefe) VALUES ('Sub Gerente', 'José', 1);
+INSERT INTO Empleado (Puesto, Nombre, CodigoJefe) VALUES ('Supervisor', 'Carlos', 4);
+INSERT INTO Empleado (Puesto, Nombre, CodigoJefe) VALUES ('Supervisor', 'Diego', 4);
 
 
 
